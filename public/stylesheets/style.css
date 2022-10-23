@@ -1,3 +1,116 @@
-#home {
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.home {
     background-image: url('../../images/elza-face.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.routes {
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 2vw; 
+    padding-bottom: 2vw;
+    opacity: 0.7;
+    background-color: #000;
+    margin-top: none;
+}
+
+.routes a {
+    color: #fff;
+    font-family: bebas-neue, sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    letter-spacing: 0.5vw;
+}
+
+.routes:hover {
+    background-color: #bbb;
+}
+
+.routes a:hover {
+    color: #000;
+}
+
+#page{
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-top: 2vw;
+    font-family: oswald, sans-serif;
+    font-size: 20px;
+    color: #684C4A
+}
+
+.nav a{
+    display: flex;
+    justify-content: right;
+    color:#402D22;
+    font-family: bebas-neue, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.5vw;
+    text-decoration: none;
+
+}
+
+.title h1 {
+    display: flex;
+    justify-content: center;
+    color:#402D22;
+    font-family: bebas-neue, sans-serif;
+    letter-spacing: 0.5vw;
+    font-size: 35px;
+}
+
+.about-person h3 {
+    color:#402D22;
+    font-family: bebas-neue, sans-serif;
+    letter-spacing: 0.2vw;
+    font-size: 24px;
+    padding-top: 3vw;
+}
+
+.about-person h4 {
+    display: flex;
+    justify-content: center;
+    color: #402D22;
+    padding-top: 2vw;
+    padding-bottom: 4vw;
+}
+
+.works h3 {
+    color: #402D22;
+    font-family: bebas-neue, sans-serif;
+    letter-spacing: 0.3vw;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+}
+
+.works ul li a {
+    text-decoration: none;
+    color: #402D22;
+}
+
+.photo-gallery h3 {
+    color: #402D22;
+    font-family: bebas-neue, sans-serif;
+    letter-spacing: 0.3vw;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery img {
+    display:inline-flex;
+    flex-direction: row;
+    width: 33%;
+    padding-bottom: 1vw;
+    justify-content: center;
+    align-items: stretch;
 }
